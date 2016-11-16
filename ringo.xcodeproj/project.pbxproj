@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A470B4C1DDCABAE003B6686 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A470B4B1DDCABAE003B6686 /* Icon-120.png */; };
 		5EA1DFE3165642750004C709 /* background-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA1DFE1165642750004C709 /* background-hd.png */; };
 		5EA1DFE4165642750004C709 /* characters-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA1DFE2165642750004C709 /* characters-hd.png */; };
 		8A13B0CA16555F2200A79B6A /* Ringo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A13B0C916555F2200A79B6A /* Ringo.m */; };
@@ -145,6 +146,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A470B4B1DDCABAE003B6686 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "Resources/Icon-120.png"; sourceTree = "<group>"; };
 		5EA1DFE1165642750004C709 /* background-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-hd.png"; path = "imgs/background-hd.png"; sourceTree = "<group>"; };
 		5EA1DFE2165642750004C709 /* characters-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "characters-hd.png"; path = "imgs/characters-hd.png"; sourceTree = "<group>"; };
 		8A13B0C816555F2200A79B6A /* Ringo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ringo.h; sourceTree = "<group>"; };
@@ -502,6 +504,7 @@
 			children = (
 				8A37522C1653FB49009151F4 /* background.png */,
 				5EA1DFE1165642750004C709 /* background-hd.png */,
+				4A470B4B1DDCABAE003B6686 /* Icon-120.png */,
 				8A37523416540CB6009151F4 /* characters.png */,
 				5EA1DFE2165642750004C709 /* characters-hd.png */,
 				8A13B0CF1657DBB400A79B6A /* kago_front-hd.png */,
@@ -896,6 +899,7 @@
 				TargetAttributes = {
 					8A3C4BE61652BAC000B0C66B = {
 						DevelopmentTeam = JQNK74493B;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 0;
@@ -934,6 +938,7 @@
 				8A3C4C0A1652BAC000B0C66B /* Icon-72.png in Resources */,
 				8A3C4C0C1652BAC000B0C66B /* Icon-Small-50.png in Resources */,
 				8A3C4C0E1652BAC000B0C66B /* Icon-Small.png in Resources */,
+				4A470B4C1DDCABAE003B6686 /* Icon-120.png in Resources */,
 				8A3C4C101652BAC000B0C66B /* Icon-Small@2x.png in Resources */,
 				8A3C4C121652BAC000B0C66B /* Icon.png in Resources */,
 				8A3C4C141652BAC000B0C66B /* Icon@2x.png in Resources */,
@@ -1073,7 +1078,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1094,7 +1099,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pham Quang Huy (JQNK74493B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					NDEBUG,
@@ -1114,6 +1119,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1128,6 +1134,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.applegot.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1137,6 +1145,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1150,6 +1159,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.applegot.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
