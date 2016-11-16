@@ -80,10 +80,10 @@
 	navController_ = [[UINavigationController alloc] initWithRootViewController:director_];
 	navController_.navigationBarHidden = YES;
 	
-    // 広告
-    UIView* adView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
-    adView.backgroundColor = [UIColor blueColor];
-    [director_.view addSubview:adView];
+    // 広告 => ads here
+//    UIView* adView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 50)];
+//    adView.backgroundColor = [UIColor blueColor];
+//    [director_.view addSubview:adView];
     
 	// set the Navigation Controller as the root view controller
 //	[window_ addSubview:navController_.view];	// Generates flicker.
