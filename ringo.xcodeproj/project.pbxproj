@@ -898,7 +898,7 @@
 				LastUpgradeCheck = 0450;
 				TargetAttributes = {
 					8A3C4BE61652BAC000B0C66B = {
-						DevelopmentTeam = JQNK74493B;
+						DevelopmentTeam = 4BLWLFDFU8;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
@@ -1121,7 +1121,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = JQNK74493B;
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ringo/Prefix.pch;
@@ -1132,7 +1132,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.applegot.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.okinawa.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1147,7 +1147,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = JQNK74493B;
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ringo/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"ringo/libs/kazmath/include\"";
@@ -1157,7 +1157,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.applegot.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.okinawa.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
